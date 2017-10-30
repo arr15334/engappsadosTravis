@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:paddingBottom="5dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="5dp"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/title"
+        android:id="@+id/category"
+        android:textSize="21sp"
+        android:textColor="#f65034"
+        />
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/adrian_prueba" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textoD"
+        android:text="@string/descripcion"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/leer_mas"
+        android:clickable="true"
+        android:id="@+id/link"/>
+
+</LinearLayout>

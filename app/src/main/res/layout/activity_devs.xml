@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f7f7f7"
+    >
+
+    <TextView
+        android:id="@+id/tituloDev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Titulo desarrollador"
+        android:textColor="#3c271f"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imagenDeveloper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/adrian_prueba" />
+
+    <TextView
+        android:id="@+id/dataDeveloper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#cec5c5"
+        android:textColor="#3c271f"
+        android:text="TextView"
+        />
+
+</LinearLayout>
