@@ -18,16 +18,7 @@ android:
     - extra-google-m2repository
     - extra-android-m2repository
     - addon-google_apis-google-19
-    - com.google.firebase:firebase-auth:11.0.2
-    - com.google.android.gms:play-services-auth:11.0.2
-    - com.google.firebase:firebase-core:11.0.2
-    - com.google.firebase:firebase-database:11.0.2
-    - com.android.support:appcompat-v7:23.4.0
-    - com.android.support.constraint:constraint-layout:1.0.2
-    - org.jsoup:jsoup:1.10.3
-    - com.squareup.picasso:picasso:2.5.2
-    - com.android.support:design:23.4.0
-    - junit:junit:4.12
+    
 
     # Specify at least one system image,
     # if you need to run emulator(s) during your tests
