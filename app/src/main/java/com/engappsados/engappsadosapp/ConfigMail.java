@@ -2,6 +2,7 @@ package com.engappsados.engappsadosapp;
 
 /**
  * Created by Rodrigo on 27/10/2017.
+ * necesario para obtener credenciales
  */
 
 public class ConfigMail {
