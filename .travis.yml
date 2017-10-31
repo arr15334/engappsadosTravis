@@ -3,5 +3,8 @@ install: true
 android:
   components:
     - build-tools-25.0.2
+    - android-23
 before_script:
-    - chmod +x gradlew
+- chmod +x gradlew
+before_install:
+- mkdir "$ANDROID_HOME/licenses" || true
